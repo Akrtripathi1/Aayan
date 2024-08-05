@@ -1,0 +1,60 @@
+.contact4 {
+    display: grid;
+    // grid-template-columns: auto auto;
+    background: rgba(111, 193, 114, 0.31);
+    border-radius: 2.9em;
+    width: 60%;
+    padding: 3em;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact4 h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 1.7em;
+    font-weight: 800;
+    line-height: 2.93px;
+    text-align: center;
+    color: rgba(38, 140, 141, 1);
+    margin-bottom: 2em;
+     
+      
+  
+    .contact-right{
+      
+    }
+  }
+  @media (max-width: 768px) {
+    .contact4 {
+      width: 90%;
+      padding: 2em;
+      margin-top: 1.5rem auto;
+    }
+
+  
+    .contact-right {
+      order: -1; // Move the image above the form
+      background: none; // Remove background color for mobile devices
+    }
+  
+    .contact-right1 {
+      display: none; // Hide the span element on small screens
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact4 h3 {
+      font-size: 1.4em;
+    }
+  
+    .contact4 .form-control {
+      padding: 0.75em;
+      font-size: 0.875em;
+    }
+  
+    .contact4 .btn {
+      padding: 0.75em;
+      font-size: 0.875em;
+    }
+  }

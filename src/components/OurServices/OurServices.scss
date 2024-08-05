@@ -1,0 +1,286 @@
+.services-container {
+    text-align: center;
+    padding: 20px;
+
+
+    .aayan-header {
+        h4 {
+            font-family: Poppins;
+            font-size: 54.45px;
+            font-weight: 700;
+            line-height: 81.67px;
+            text-align: center;
+            color: #484848;
+
+        }
+
+    }
+
+    .line {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 1rem;
+
+        img {
+            width: 15%;
+        }
+
+    }
+
+    .services-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 54.45px;
+        font-weight: 700;
+        line-height: 81.67px;
+        color: #484848;
+    }
+
+    .services-circle {
+        position: relative;
+        width: 50%;
+        height: 600px;
+        margin: 0 auto; 
+        background: #ffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+
+    .service-item-1,
+    .service-item-2,
+    .service-item-3,
+    .service-item-4,
+    .service-item-5,
+    .service-item-6 {
+        position: absolute;
+        width: 150px;
+        /* Adjust as needed */
+        text-align: center;
+    }
+
+    .service-item-1 {
+
+        top: 3.2%;
+        left: 16%;
+    }
+
+    .service-item-2 {
+        top: 38%;
+        left: -1%;
+    }
+
+    .service-item-3 {
+
+        bottom: 10.2%;
+        left: 10%;
+    }
+
+    .service-item-4 {
+
+        top: 3.2%;
+        left: 70%;
+    }
+
+    .service-item-5 {
+
+        top: 38%;
+        right: -1%;
+
+    }
+
+    .service-item-6 {
+
+        bottom: 2.2%;
+        left: 77%;
+    }
+
+    .circle-2 {
+
+        .service-item-4,
+        .service-item-5,
+        .service-item-6 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 1rem;
+        }
+    }
+
+    .circle-1 {
+
+        .service-item-1,
+        .service-item-2,
+        .service-item-3 {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+
+
+        }
+    }
+
+    .service-item-1,
+    .service-item-2,
+    .service-item-3,
+    .service-item-4,
+    .service-item-5,
+    .service-item-7 img {
+        width: 100px;
+        /* Adjust as needed */
+        height: 100px;
+        /* Adjust as needed */
+    }
+
+    .service-item-content-1,
+    .service-item-content-2 {
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: black;
+            margin: 10px 0 5px;
+            text-align: left;
+        }
+
+        p {
+            font-family: 'ABeeZee', sans-serif;
+            font-size: 12px;
+            color: #34468A;
+            text-align: left;
+        }
+    }
+
+
+
+
+    .service-item-content-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .service-item-content-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center-logo {
+        position: absolute;
+        width: 55%;
+        /* Adjust as needed */
+        height: 60%;
+        /* Adjust as needed */
+        background-color: black;
+        border-radius: 50%;
+
+        img {
+            position: relative;
+            left: 1%;
+            top: 25%;
+            width: 50%;
+
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1320px) {
+    .services-title, .aayan-header h4 {
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .line{
+            display: none !important;
+    }
+
+    .services-circle {
+        width: 60%;
+        height: 500px;
+    }
+
+    .service-item-1,
+    .service-item-2,
+    .service-item-3,
+    .service-item-4,
+    .service-item-5,
+    .service-item-6 {
+        width: 130px;
+    }
+
+    .service-item-1 img,
+    .service-item-2 img,
+    .service-item-3 img,
+    .service-item-4 img,
+    .service-item-5 img,
+    .service-item-6 img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .center-logo {
+        width: 50%;
+        height: 55%;
+    }
+
+    .center-logo img {
+        top: 18% !important;
+        width: 45%;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+    .services-title, .aayan-header h4 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .services-circle {
+        width: 55%;
+        height: 450px;
+    }
+
+    .service-item-1,
+    .service-item-2,
+    .service-item-3,
+    .service-item-4,
+    .service-item-5,
+    .service-item-6 {
+        width: 120px;
+    }
+
+    .service-item-1 img,
+    .service-item-2 img,
+    .service-item-3 img,
+    .service-item-4 img,
+    .service-item-5 img,
+    .service-item-6 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .center-logo {
+        width: 45%;
+        height: 50%;
+    }
+
+    .center-logo img {
+        top: 15%;
+        width: 40%;
+    }
+}

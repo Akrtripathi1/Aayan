@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+    .game{
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    
+        .game-1 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 4.5rem;
+    
+            .game-1-left {
+                max-width: 600px;
+                max-height: 438px;
+            }
+    
+            .game-1-left video {
+                width: 90%;
+                height: 400px;
+            }
+    
+            .game-1-right {
+                max-width: 691px;
+                height: 238px;
+                margin-right: 1rem;
+    
+                h4 {
+                    width: 100%;
+                    max-width: 390px;
+                    height: auto;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 40.07px;
+                    font-weight: 500;
+                    line-height: 50.93px;
+                    text-align: center;
+                    color: #263238;
+                    word-break: break-word;
+                    margin: 0;
+                }
+    
+                .game-1-p {
+                    width: 100%;
+                    max-width: 180px;
+                    margin: 1rem auto;
+                    font-family: 'ABeeZee', sans-serif;
+                    font-size: 17.52px;
+                    font-weight: 400;
+                    line-height: 18.9px;
+                    text-align: center;
+                    color: #263238;
+                }
+    
+                .game-1-button {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 2rem;
+    
+                    .game-1-button-1 {
+                        width: 229.29px;
+                        height: 39.43px;
+                        border-radius: 3.65px;
+                        background-color: #1C1C1C;
+                        color: white;
+                        border: none;
+                    }
+    
+                    .game-1-button-2 {
+                        width: 97.85px;
+                        height: 30.67px;
+                        font-family: 'ABeeZee', sans-serif;
+                        font-size: 14.6px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 15.75px;
+                        text-align: center;
+                        border: 0.73px solid #1C1C1C;
+                    }
+                }
+            }
+        }
+    
+        .game-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            gap: 88px;
+            margin-top: 0.5rem;
+            margin-bottom: 4.5rem;
+    
+            .game-2-left {
+                width: 100%;
+                max-width: 459PX;
+                height: auto;
+                gap: 17px;
+                align-content: center;
+                margin-left: 0.2rem;
+    
+                h4 {
+                    width: 100%;
+                    max-width: 520px;
+                    height: auto;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 40.46px;
+                    font-weight: 500;
+                
+                    letter-spacing: -0.01em;
+                    text-align: center;
+                    color: #2E6241;
+                    margin: 0.4rem;
+                }
+    
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    letter-spacing: -0.01em;
+                    text-align: left;
+                    width: 100%;
+                    max-width: 549px;
+                    height: auto;
+                }
+            }
+    
+            .game-2-right {
+                width: 434.19px;
+                height: auto;
+    
+                img {
+                    width: 100%;
+                    max-width: 381.77px;
+                    height: auto;
+                }
+            }
+        }
+    
+        .game-31 {
+            width: 75%;
+            height: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #63BE73;
+            border-radius: 42.4px;
+            margin-right: auto;
+    
+            .game-3-head {
+                h4 {
+                    margin: 3rem 0;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 41.6px;
+                    text-align: center;
+                    color: white;
+                    width: 282px;
+                    height: auto;
+                }
+            }
+    
+            .game-3-para {
+                p {
+                    width: 80%;
+                    margin: auto;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 60px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+    
+            @media (max-width: 430px) {
+                .game-3-head h4 {
+                    margin: 1rem;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    letter-spacing: -0.01em;
+                    text-align: center;
+                }
+    
+                .game-3-para p {
+                    width: 80%;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: -0.01em;
+                    text-align: center;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    
+        .game-4 {
+            width: 100%;
+            height: auto;
+            margin-top: 2.5rem;
+            text-align: center;
+            
+            h4 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                color: #263238;
+                margin-bottom: 2.5rem;
+            }
+            
+            .game-container {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 2rem;
+            }
+            
+            .game-card {
+                width: 430px; /* Fixed width for the card */
+                height: auto;
+                margin: 1rem;
+                /* Example: Adding shadow for clarity */
+                transition: transform 0.3s ease-in-out;
+    
+                &:hover {
+                    transform: scale(1.02);
+                }
+    
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 8px; /* Example: Adding border radius */
+                }
+    
+                .game-card-content {
+                    padding: 1rem;
+                    
+                    .green-head {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-align: left;
+                        color: #39A34B;
+                        margin-bottom: 0.5rem;
+                    }
+    
+                    h4 {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px; /* Adjusted font size */
+                        font-weight: 600;
+                        text-align: left;
+                        line-height: 28px;
+                        color: #1A1A1A;
+                        margin-bottom: 0.75rem;
+                    }
+    
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-align: left;
+                        line-height: 24px;
+                        color: #667085;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 430px) {
+        .game {
+            padding: 1rem;
+        }
+    
+        .game-1 {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+    
+            .game-1-left {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                margin-right: 1rem;
+    
+                video {
+                    width: 90%;
+                    height: auto;
+                    max-width: 317px;
+                    opacity: 1;
+                }
+            }
+    
+            .game-1-right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+    
+                h4 {
+                    width: 80%;
+                    max-width: 390px;
+                    margin: 9px 0;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    letter-spacing: -0.075em;
+                    word-break: break-word;
+                }
+    
+                .game-1-p {
+                    width: 90%;
+                    max-width: 360px;
+                    margin-top: 5rem;
+                    margin-right: 14rem;
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    text-align: center;
+                }
+            }
+        }
+    
+        .game-2 {
+            max-width: 100%;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            .game-2-left {
+                max-width: 390px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                h4 {
+                    width: 70%;
+                    max-width: 390px;
+                    margin: 9px 0;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    letter-spacing: -0.075em;
+                    word-break: break-word;
+                }
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 1rem;
+            }
+    
+            .game-2-right img {
+                width: 100%;
+                height: auto;
+                max-width: 434.19px;
+                margin-left: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+    
+        .game .game-4 .game-container {
+            flex-direction: column; /* Change to column layout on smaller screens */
+            align-items: center;
+        }
+    
+        .game .game-4 .game .game {
+            width: 100%; /* Take full width of container */
+            max-width: calc(100% - 2rem); /* Adjust maximum width with some margin */
+        }
+    }
+    @media (max-width: 768px) {
+        .game-1 {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .game-2 {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+    }

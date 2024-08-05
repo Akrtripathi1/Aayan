@@ -1,0 +1,149 @@
+.oservices-container {
+    width: 430px;
+    margin: 0 auto;
+    text-align: center;
+
+
+    .title {
+        margin-top: 3px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 1px;
+
+    }
+
+    .header-line {
+        width: 108.27px;
+        height: 9.5px;
+    }
+
+    .oservice {
+        position: relative;
+        width: 430px;
+        height: 1046.78px;
+        top: 1451.22px;
+        left: 35px;
+        gap: 0px;
+        border: 0.58px 0px 0px 0px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        img {
+            position: relative;
+            width: 50%;
+            height: 1150px;
+            bottom: 130%;
+            right: 8%;
+        }
+
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4,
+        .item-5,
+        .item-6 {
+            position: absolute;
+            width: 150px;
+            text-align: center;
+        }
+
+        .item-1 {
+            width: 50%;
+            bottom: 220%;
+            right: 40%;
+        }
+        .item-2 {
+            width: 50%;
+            bottom: 201%;
+            left:34%;
+            
+        }
+        .item-3{
+            width: 60%;
+            bottom: 184%;
+            right: 41%;
+        }
+        .item-4{
+            width: 55%;
+            bottom: 165%;
+            left:31%
+        }
+        .item-5{
+            width: 55%;
+            bottom: 147%;
+            right: 40%;
+        }
+        .item-6{
+            width: 50%;
+            bottom: 128%;
+            left: 34%;
+        }
+
+        .item-1 img,
+        .item-2 img,
+        .item-3 img,
+        .item-4 img,
+        .item-5 img,
+        .item-6 img {
+            width: 80px;
+            height: auto;
+        }
+
+        .item-content-1,
+        .item-content-2 {
+
+            h3 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                width: 100%;
+                font-weight: 700;
+                color: black;
+                margin: 10px 0 5px;
+                text-align: left;
+            }
+
+            p {
+                font-family: 'ABeeZee', sans-serif;
+                width: 100%;
+                font-size: 12px;
+                color: #34468A;
+                text-align: left;
+            }
+        }
+
+        .item-4,
+        .item-2,
+        .item-6 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .item-1,
+        .item-5,
+        .item-3 {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}
+@media (max-width:430px) {
+    .oservices-container{
+        width: 100%;
+        margin: auto;
+        .oservice{
+            left: 9px;
+        }
+        .item-content-1,
+        .item-content-2 {
+            p{
+                font-size: 9px;
+            }
+        }
+    }
+}

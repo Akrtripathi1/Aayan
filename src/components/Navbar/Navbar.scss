@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* overall navbar design */
+.container-fluid {
+    .navbar {
+        font-family: 'Poppins', sans-serif;
+        padding: 1rem 4rem;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+        margin: 0.4em 0;
+    }
+
+    .navbar-brand img:hover {
+        transition: all;
+        transform: scale(1.25);
+    }
+
+    .navbar-nav .nav-link {
+        color: black;
+        font-weight: 500;
+        padding-left: 1rem;
+        margin-right: 3em;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: rgb(24, 146, 38);
+    }
+
+    .dropdown-menu {
+        font-family: 'Poppins', sans-serif;
+        padding: 1rem;
+    }
+
+    .dropdown-item {
+        color: black;
+    }
+
+    .dropdown-item:hover {
+        color: rgb(24, 146, 38);
+    }
+
+    /* button design */
+    .btn-dark {
+        font-weight: 500;
+        border-radius: 0.5em;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 3em;
+    }
+}
+
+/* Align navbar-brand and navbar-toggler in the same line for mobile view */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        margin-left: auto;
+        padding: 0;
+        width: 20%;
+        margin: auto;
+    }
+    .d-flex.align-items-center {
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+}

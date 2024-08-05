@@ -1,0 +1,234 @@
+
+// .case-study1 {
+//     position: relative;
+//     overflow: hidden;
+//     padding: 7rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//     height: 75vh;
+
+
+//     .video-bg {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//         z-index: -7;
+//     }
+
+//     .overlay {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         background-color: rgba(0, 0, 0, 0.7);
+//         /* Adjust the opacity as needed */
+//         z-index: -1;
+//     }
+
+//     .center{
+//         width: auto;
+//         font-family: Poppins;
+// text-align: center;
+// position: relative;
+// z-index: 99;
+// color: white;
+
+// h1{
+//     font-family: Jost;
+//     font-size: 103.7px;
+//     font-weight: 700;
+//     line-height: 149.85px;
+//     text-align: center;
+    
+
+// }
+// p{
+//     font-family: Jost;
+//     font-size: 19.44px;
+//     font-weight: 500;
+//     line-height: 28.1px;
+//     text-align: center;
+    
+
+
+// }
+
+// button{
+//     width: 10em;
+//     padding: 0.6em;
+//     margin-top: 2em;
+//     border-radius: 5em;
+//     color: white;
+//     margin-right: 5em;
+
+
+
+
+
+// background: rgba(81, 177, 117, 1);
+
+// }
+
+//     }
+
+
+// }
+.case-study1 {
+    position: relative;
+    overflow: hidden;
+    padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+
+    .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -7;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+    }
+
+    .center {
+        width: auto;
+        font-family: Poppins;
+        text-align: center;
+        position: relative;
+        z-index: 99;
+        color: white;
+
+        h1 {
+            font-family: Jost;
+            font-size: 6vw;  // Responsive font size
+            font-weight: 700;
+            line-height: 1.2;  // Adjusted line-height for better responsiveness
+            margin-bottom: 1rem; // Spacing between heading and paragraph
+        }
+
+        p {
+            font-family: Jost;
+            font-size: 2.5vw;  // Responsive font size
+            font-weight: 500;
+            line-height: 1.4;  // Adjusted line-height for better responsiveness
+            margin-bottom: 2rem; // Spacing between paragraph and buttons
+            color: white;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;  // Default to column layout
+            gap: 1em;  // Space between buttons
+            align-items: center; // Center buttons horizontally
+
+            @media (min-width: 768px) {
+                flex-direction: row; // Change to row layout on larger screens
+                gap: 2em;  // Space between buttons on larger screens
+                justify-content: center; // Center buttons horizontally on larger screens
+            }
+        }
+
+        button {
+            width: 8em;  // Responsive width
+            padding: 0.6em;
+            margin-top: 1.5em;  // Adjusted margin for responsiveness
+            border-radius: 5em;
+            color: white;
+            background: rgba(81, 177, 117, 1);
+            border: none;
+            font-size: 1em;  // Responsive font size
+            cursor: pointer;
+            transition: background 0.3s;
+
+            &:hover {
+                background: rgba(61, 147, 96, 1);  // Darker green for hover effect
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .case-study1 {
+        padding: 5rem;  // Reduced padding for smaller screens
+        height: 60vh;  // Adjusted height for smaller screens
+    }
+
+    .center h1 {
+        font-size: 5vw;
+    }
+
+    .center p {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .case-study1 {
+        padding: 4rem;
+        height: 50vh;
+    }
+
+    .center h1 {
+        font-size: 4vw;
+    }
+
+    .center p {
+        font-size: 1.8vw;
+    }
+
+    .center .buttons {
+        flex-direction: row;  // Ensure buttons are in a row on smaller screens
+        gap: 1em;  // Reduced gap for smaller screens
+    }
+
+    .center button {
+        width: 7em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .case-study1 {
+        padding: 2rem;
+        height: 60vh;
+    }
+
+    .center h1 {
+        font-size: 9vw;
+    }
+
+    .center p {
+        font-size: 6vw;
+        margin-top: 0;
+    }
+
+    .center .buttons {
+        margin: 0;
+        flex-direction: row;  // Ensure buttons are in a row on small screens
+        gap: 0em;  // Further reduced gap for very small screens
+    }
+
+    .center button {
+        width: 2em;
+        font-size: 0.7em !important;
+    }
+}

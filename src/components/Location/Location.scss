@@ -1,0 +1,313 @@
+// 
+.location {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+
+    .head {
+        
+        margin-top: 1rem;
+        width: 320.83px;
+        margin:auto;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 31.11px;
+        font-weight: 600;
+        line-height: 46.67px;
+        color: 
+        #263238;
+    }
+
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 65vh;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px;
+        margin-top: 3rem;
+        border-radius: 30px;
+        background-color: rgba(154, 244, 188, 1);
+        animation: fadeout 16s infinite;
+
+        img {
+            width: 45%;
+            height: 280px;
+        }
+
+        .map-1-card {
+            border: 1px;
+            border-radius: 20px;
+            width: 40%;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            background-color: rgba(81, 177, 117, 1);
+
+            h2 {
+                color: white;
+                margin-top: 1rem;
+                font-family: Poppins;
+            }
+
+            p {
+                color: white;
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            button {
+                width: 60%;
+                height: 40px;
+                background-color: rgba(0, 89, 33, 1);
+                gap: 0px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+            }
+        }
+    }
+
+    @keyframes fadeout {
+
+        0%,
+        25% {
+            opacity: 1;
+        }
+
+        50%,
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .map-1 {
+        animation-delay: 0.5s;
+    }
+
+    .map-2 {
+        background-color: rgba(254, 255, 195, 1);
+        animation-delay: 4s;
+
+        .map-1-card {
+            background-color: rgba(212, 173, 74, 1);
+
+            button {
+                background-color: rgba(101, 73, 0, 1);
+            }
+        }
+    }
+
+    .map-3 {
+        background-color: rgba(195, 255, 198, 1);
+        animation-delay: 8s;
+
+        .map-1-card {
+            background-color: rgba(85, 212, 74, 1);
+
+            button {
+                background-color: rgba(7, 88, 0, 1);
+            }
+        }
+    }
+
+    .map-4 {
+        background-color: rgba(207, 195, 255, 1);
+        animation-delay: 12s;
+
+        .map-1-card {
+            background-color: rgba(102, 74, 212, 1);
+
+            button {
+                background-color: rgba(16, 0, 79, 1);
+            }
+        }
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .location {
+        width: 95%;
+    }
+
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        height: 60vh;
+    }
+
+    .map-1-card {
+        width: 45%;
+        height: 20vh !important;
+    }
+
+    img {
+        width: 40%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .location {
+        width: 100%;
+        
+    }
+
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        height: 55vh;
+        margin-top: 2rem;
+        gap: 0;
+    }
+
+    .map-1-card {
+        width: 50%;
+        height: 30vh;
+        h2{
+            font-size: 1rem
+        }
+    
+
+    img {
+        width: 35%;
+        height: 200px;
+    }
+}
+}
+
+@media (max-width: 480px) {
+
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        height: 50vh;
+    }
+
+    .map-1-card {
+        width: 70%;
+        height: 25vh;
+        gap: 0.5rem;
+    }
+
+    img {
+        width: 50%;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    button {
+        width: 70%;
+        height: 45px;
+
+        font-size: 12px;
+    }
+}
+@media (max-width: 430px) {
+
+    .location .head
+    {
+        margin: AUTO;
+    }
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        height: 50vh ;
+        
+    }
+
+    .map-1-card {
+        width: 70%;
+        height: auto;
+        gap: 0.2rem;
+    
+
+    img {
+        width: 50%;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.5rem !important;
+    }
+
+    button {
+        width: 70%;
+        height: auto;
+            margin: 0;
+        font-size: 11px;
+        margin-bottom: 0.5rem;
+    }
+}   
+}
+@media (max-width: 375px) {
+
+    .location .head 
+    {
+     
+
+
+    }
+    .map-1,
+    .map-2,
+    .map-3,
+    .map-4 {
+        height: 50vh ;
+        
+    }
+
+    .map-1-card {
+        width: 70%;
+        height: 80%;
+        gap: 0rem;
+    
+
+    img {
+        width: 50%;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 0.5rem !important;
+    }
+
+    p{
+        font-size: 0.3rem !important;
+    }
+
+    button {
+        width: 60% !important;
+        margin: 0;
+        font-size: 10px;
+        margin-bottom: 0.5rem;
+    }
+
+}
+    
+}

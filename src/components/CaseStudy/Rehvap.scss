@@ -1,0 +1,385 @@
+// .Rehvap {
+//     .left-rehvap {
+//         display: flex;
+//         justify-content: space-evenly;
+//         align-items: flex-start;
+//         gap: 1em;
+
+
+//     }
+
+//     .content {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 1em;
+//     }
+
+//     .right-rehvap {
+//         display: flex;
+//         flex-direction: row-reverse;
+//         justify-content: space-evenly;
+//         align-items: start;
+//         gap: 1em;
+//     }
+
+//     .right-rehvap {
+//         h2 {
+//             font-family: Jost;
+//             font-size: 64px;
+//             font-weight: 700;
+//             line-height: 72.48px;
+//             text-align: left;
+//             margin-top: 0.9em;
+//         }
+
+
+//         h3 {
+//             font-family: Jost;
+//             font-size: 59.85px;
+//             font-weight: 500;
+//             line-height: 45.93px;
+//             text-align: left;
+//             color: rgba(81, 177, 117, 1);
+//         }
+
+//         button {
+//             width: 182.29px;
+//             height: 58.06px;
+//             top: 2378.88px;
+//             left: 171.03px;
+//             gap: 0px;
+//             border-radius: 3.24px;
+//             opacity: 0px;
+
+//             border: none;
+//             background-color: #51B175;
+//             color: white;
+//         }
+//     }
+
+//     .left-rehvap {
+//         h2 {
+//             font-family: Jost;
+//             font-size: 64px;
+//             font-weight: 700;
+//             line-height: 72.48px;
+//             text-align: left;
+//             margin-top: 0.4em;
+//         }
+
+//         h3 {
+//             font-family: Jost;
+//             font-size: 59.85px;
+//             font-weight: 500;
+//             line-height: 45.93px;
+//             text-align: left;
+//             color: rgba(81, 177, 117, 1);
+//         }
+
+//         p {
+//             width: 538px;
+//             height: 84px;
+//             top: 2272.5px;
+//             left: 171px;
+//             gap: 0px;
+//             opacity: 0px;
+
+//         }
+
+//         button {
+//             width: 182.29px;
+//             height: 58.06px;
+//             top: 2378.88px;
+//             left: 171.03px;
+//             gap: 0px;
+//             border-radius: 3.24px;
+//             opacity: 0px;
+
+//             border: none;
+//             background-color: #51B175;
+//             color: white;
+//         }
+//     }
+
+// }
+// .Rehvap {
+//     .left-rehvap, .right-rehvap {
+//         display: flex;
+//         justify-content: space-evenly;
+//         align-items: flex-start;
+//         gap: 1em;
+//         flex-wrap: wrap;
+//     }
+
+//     .content {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 1em;
+//     }
+
+//     .right-rehvap {
+//         flex-direction: row-reverse;
+//     }
+
+//     h2 {
+//         font-family: Jost;
+//         font-size: 64px;
+//         font-weight: 700;
+//         line-height: 72.48px;
+//         text-align: left;
+//         margin-top: 0.9em;
+//     }
+
+//     h3 {
+//         font-family: Jost;
+//         font-size: 59.85px;
+//         font-weight: 500;
+//         line-height: 45.93px;
+//         text-align: left;
+//         color: rgba(81, 177, 117, 1);
+//     }
+
+//     p {
+//         width: 538px;
+//         height: 84px;
+//     }
+
+//     button {
+//         width: 182.29px;
+//         height: 58.06px;
+//         border-radius: 3.24px;
+//         border: none;
+//         background-color: #51B175;
+//         color: white;
+//         cursor: pointer;
+//     }
+
+//     @media (max-width: 1024px) {
+//         .left-rehvap, .right-rehvap {
+//             flex-direction: column;
+//             align-items: center;
+//             text-align: center;
+
+//             h2 {
+//                 font-size: 48px;
+//             }
+
+//             h3 {
+//                 font-size: 36px;
+//             }
+
+//             p {
+//                 width: auto;
+//                 height: auto;
+//             }
+
+//             button {
+//                 width: auto;
+//                 height: auto;
+//                 padding: 10px 20px;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 768px) {
+//         .left-rehvap, .right-rehvap {
+//             flex-direction: column;
+//             align-items: center;
+//             text-align: center;
+
+//             h2 {
+//                 font-size: 36px;
+//             }
+
+//             h3 {
+//                 font-size: 24px;
+//             }
+
+//             p {
+//                 width: auto;
+//                 height: auto;
+//             }
+
+//             button {
+//                 width: auto;
+//                 height: auto;
+//                 padding: 10px 20px;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 480px) {
+//         .left-rehvap, .right-rehvap {
+//             flex-direction: column;
+//             align-items: center;
+//             text-align: center;
+
+//             h2 {
+//                 font-size: 24px;
+//             }
+
+//             h3 {
+//                 font-size: 18px;
+//             }
+
+//             p {
+//                 width: auto;
+//                 height: auto;
+//             }
+
+//             button {
+//                 width: auto;
+//                 height: auto;
+//                 padding: 10px 20px;
+//             }
+//         }
+//     }
+// }
+.Rehvap {
+    .left-rehvap, .right-rehvap {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 1em;
+        flex-wrap: wrap;
+        img{
+            margin: 0;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .right-rehvap {
+        flex-direction: row-reverse;
+    }
+
+    h2 {
+        font-family: Jost;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72.48px;
+        text-align: left;
+        margin-top: 0.9em;  // Adjust this for larger screens
+        margin-bottom: 0; // Add some space below h2
+    }
+
+    h3 {
+        font-family: Jost;
+        font-size: 59.85px;
+        font-weight: 500;
+        line-height: 45.93px;
+        text-align: left;
+        color: rgba(81, 177, 117, 1);
+        margin-top: 0;  // Remove top margin
+    }
+
+    p {
+        width: 538px;
+        height: 84px;
+    }
+
+    button {
+        width: 182.29px;
+        height: 58.06px;
+        border-radius: 3.24px;
+        border: none;
+        background-color: #51B175;
+        color: white;
+        cursor: pointer;
+    }
+
+    @media (max-width: 1024px) {
+        .left-rehvap, .right-rehvap {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h2 {
+                font-size: 48px;
+                margin-top: 0.5em;  // Reduce top margin
+                margin-bottom: 0.25em;  // Reduce bottom margin
+            }
+
+            h3 {
+                font-size: 36px;
+                margin-top: 0.25em;  // Add a small margin-top
+            }
+
+            p {
+                width: auto;
+                height: auto;
+            }
+
+            button {
+                width: auto;
+                height: auto;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .left-rehvap, .right-rehvap {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+                margin-top: 0.3em;  // Further reduce top margin
+                margin-bottom: 0.2em;  // Further reduce bottom margin
+            }
+
+            h3 {
+                font-size: 24px;
+                margin-top: 0.2em;  // Add a small margin-top
+            }
+
+            p {
+                width: auto;
+                height: auto;
+            }
+
+            button {
+                width: auto;
+                height: auto;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .left-rehvap, .right-rehvap {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h2 {
+                font-size: 24px;
+                margin-top: 0;  // Further reduce top margin
+                margin-bottom: 0.1em;  // Further reduce bottom margin
+            }
+
+            h3 {
+                font-size: 18px;
+                margin-top: 0;  // Add a small margin-top
+            }
+
+            p {
+                width: auto;
+                height: auto;
+            }
+
+            button {
+                width: auto;
+                height: auto;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+

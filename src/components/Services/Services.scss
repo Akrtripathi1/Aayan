@@ -1,0 +1,1879 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// .services {
+
+//     .service1 {
+//         position: relative;
+//         overflow: hidden;
+//         padding: 7rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         height: 75vh;
+
+
+//         .video-bg {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//             z-index: -7;
+//         }
+
+//         .overlay {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: rgba(0, 0, 0, 0.7);
+//             /* Adjust the opacity as needed */
+//             z-index: 1;
+//         }
+
+//         .center {
+//             width: auto;
+//             font-family: Poppins;
+//             text-align: center;
+//             position: relative;
+//             z-index: 1;
+//             color: white;
+
+//             h1 {
+//                 font-family: Rubik;
+//                 font-size: 80.24px;
+//                 font-weight: 700;
+//                 line-height: 95.08px;
+//                 text-align: left;
+
+//             }
+
+//             h3 {
+//                 font-family: Rubik;
+//                 font-size: 21.88px;
+//                 font-weight: 500;
+//                 line-height: 25.93px;
+//                 text-align: center;
+
+
+//             }
+
+//             button {
+//                 width: 12em;
+//                 padding: 0.6em;
+//                 margin-top: 2em;
+//                 border-radius: 5em;
+//                 color: white;
+
+
+
+
+//                 background: rgba(81, 177, 117, 1);
+
+//             }
+
+//         }
+
+
+//     }
+
+//     .service2 {
+//         display: grid;
+//         grid-template-columns: 2fr 2fr;
+//         margin: 4em 1.5em;
+//         margin-top: 6em;
+//         margin-left: 1em;
+
+//         padding: 12px;
+
+//         .grid-item {
+
+//             font-size: 30px;
+//             text-align: center;
+//             padding: 2em;
+//             column-gap: 0em;
+
+
+
+//             .web-development {
+//                 font-family: Raleway;
+//                 font-size: 34.34px;
+//                 font-weight: 900;
+//                 line-height: 39.65px;
+//                 text-align: center;
+//                 text-decoration: none;
+//                 margin-top: 1.5em;
+//                 color: rgba(38, 50, 56, 1);
+//                 ;
+
+//                 span {
+//                     font-family: Raleway;
+//                     font-size: 23.47px;
+//                     font-weight: 500;
+
+//                     text-align: left;
+//                     color: rgba(0, 0, 0, 1);
+//                     ;
+
+
+//                 }
+//             }
+
+
+//         }
+//     }
+
+
+
+//     .service6 {
+//         display: flex;
+//         // align-items: center;
+
+//         justify-content: center;
+//         width: 100%;
+//         margin-left: 13em;
+//         margin-top: 7em;
+
+
+//         .service6-left {
+//             width: 50%;
+
+//             img {
+//                 width: 60%;
+//             }
+//         }
+
+//         .service6-right {
+//             width: 50%;
+
+//             .one {
+//                 text-decoration: rgba(46, 98, 65, 1);
+//                 font-size: 2.6em;
+//                 color: rgba(46, 98, 65, 1);
+
+//             }
+
+//             .three {
+//                 font-size: 1em;
+//                 font-weight: bold;
+//                 margin-top: 1em;
+//                 margin-bottom: 1em;
+//             }
+
+//             .button1 {
+//                 border-radius: 1.4em;
+//                 margin-top: 2em;
+//                 margin-bottom: 2em;
+//                 width: 9em;
+//                 padding: 0.4em;
+//                 color: white;
+//                 background-color: black;
+//             }
+//         }
+//     }
+
+//     .service7 {
+//         padding: 3rem;
+//         width: 68%;
+//         margin: auto;
+//         margin-top: 5em;
+
+//         img {
+//             width: 100%;
+//         }
+
+//         .button-service7 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-top: 3.5em;
+
+//             .button2 {
+//                 font-size: 1em;
+//                 color: white;
+//                 background-color: black;
+//                 border-radius: 1.5em;
+//                 width: 8em;
+//                 padding: 0.4em;
+//             }
+//         }
+//     }
+// }
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// .services {
+//     .service1 {
+//         position: relative;
+//         overflow: hidden;
+//         padding: 7rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         height: 75vh;
+
+//         .video-bg {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             right:0;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//             z-index: -7;
+//         }
+
+//         .overlay {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: rgba(0, 0, 0, 0.7);
+//             z-index: 1;
+//         }
+
+//         .center {
+//             width: auto;
+//             font-family: Poppins;
+//             text-align: center;
+//             position: relative;
+//             z-index: 1;
+//             color: white;
+
+//             h1 {
+//                 font-family: Rubik;
+//                 font-size: 80.24px;
+//                 font-weight: 700;
+//                 line-height: 95.08px;
+//                 text-align: left;
+//             }
+
+//             h3 {
+//                 font-family: Rubik;
+//                 font-size: 21.88px;
+//                 font-weight: 500;
+//                 line-height: 25.93px;
+//                 text-align: center;
+//             }
+
+//             button {
+//                 width: 12em;
+//                 padding: 0.6em;
+//                 margin-top: 2em;
+//                 border-radius: 5em;
+//                 color: white;
+//                 background: rgba(81, 177, 117, 1);
+//             }
+//         }
+//     }
+
+//     .service2 {
+//         display: grid;
+//         grid-template-columns: 2fr 2fr;
+//         margin: 4em 1.5em;
+//         margin-top: 6em;
+//         margin-left: 1em;
+//         padding: 12px;
+
+//         .grid-item {
+//             font-size: 30px;
+//             text-align: center;
+//             padding: 2em;
+//             column-gap: 0em;
+
+//             .web-development {
+//                 font-family: Raleway;
+//                 font-size: 34.34px;
+//                 font-weight: 900;
+//                 line-height: 39.65px;
+//                 text-align: center;
+//                 text-decoration: none;
+//                 margin-top: 1.5em;
+//                 color: rgba(38, 50, 56, 1);
+
+//                 p {
+//                     font-family: Raleway;
+//                     font-size: 23.47px;
+//                     font-weight: 500;
+//                     text-align: left;
+//                     color: rgba(0, 0, 0, 1);
+//                 }
+//             }
+//         }
+//     }
+
+//     .service6 {
+//         display: flex;
+//         justify-content: center;
+//         width: 100%;
+//         margin-left: 13em;
+//         margin-top: 7em;
+
+//         .service6-left {
+//             width: 50%;
+
+//             img {
+//                 width: 60%;
+//             }
+//         }
+
+//         .service6-right {
+//             width: 50%;
+
+//             .one {
+//                 text-decoration: rgba(46, 98, 65, 1);
+//                 font-size: 2.6em;
+//                 color: rgba(46, 98, 65, 1);
+//             }
+
+//             .three {
+//                 font-size: 1em;
+//                 font-weight: bold;
+//                 margin-top: 1em;
+//                 margin-bottom: 1em;
+//             }
+
+//             .button1 {
+//                 border-radius: 1.4em;
+//                 margin-top: 2em;
+//                 margin-bottom: 2em;
+//                 width: 9em;
+//                 padding: 0.4em;
+//                 color: white;
+//                 background-color: black;
+//             }
+//         }
+//     }
+
+//     .service7 {
+//         padding: 3rem;
+//         width: 68%;
+//         margin: auto;
+//         margin-top: 5em;
+
+//         img {
+//             width: 100%;
+//         }
+
+//         .button-service7 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-top: 3.5em;
+
+//             .button2 {
+//                 font-size: 1em;
+//                 color: white;
+//                 background-color: black;
+//                 border-radius: 1.5em;
+//                 width: 8em;
+//                 padding: 0.4em;
+//             }
+//         }
+//     }
+// }
+
+// /* Media Queries for Responsive Design */
+// @media (max-width: 850px) {
+//     .services .service1 {
+//         padding: 2rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 50px;
+//             line-height: 60px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         margin: 2em 1em;
+//         padding: 0;
+//     }
+
+//     .services .service6 {
+//         flex-direction: column;
+//         align-items: center;
+//         margin-left: 0;
+//         margin-top: 4em;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 90%;
+//             margin-bottom: 2em;
+//         }
+
+//         .service6-left img {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 90%;
+//         padding: 1rem;
+//         margin-top: 3em;
+//     }
+// }
+
+// @media (max-width: 430px) {
+//     .services .service1 {
+//         padding: 1rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 40px;
+//             line-height: 50px;
+//         }
+
+//         .center h3 {
+//             font-size: 16px;
+//             line-height: 20px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         margin: 1em 0.5em;
+//         padding: 0;
+//     }
+
+//     .services .service6 {
+//         margin-left: 0;
+//         margin-top: 2em;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+
+//         .service6-left img {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         padding: 0.5rem;
+//         width: 100%;
+//         margin-top: 2em;
+//     }
+
+//     .services .service7 .button-service7 .button2 {
+//         font-size: 0.8em;
+//         width: 6em;
+//         padding: 0.3em;
+//     }
+// }
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// .services {
+//     padding: 2rem;
+
+//     .service1 {
+//         position: relative;
+//         overflow: hidden;
+//         padding: 0;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         height: 75vh;
+
+//         .video-bg {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             right: 0;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//             z-index: -7;
+//         }
+
+//         .overlay {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: rgba(0, 0, 0, 0.7);
+//             z-index: 1;
+//         }
+
+//         .center {
+//             width: auto;
+//             font-family: Poppins;
+//             text-align: center;
+//             position: relative;
+//             z-index: 1;
+//             color: white;
+
+//             h1 {
+//                 font-family: Rubik;
+//                 font-size: 80.24px;
+//                 font-weight: 700;
+//                 line-height: 95.08px;
+//                 text-align: left;
+//             }
+
+//             h3 {
+//                 font-family: Rubik;
+//                 font-size: 21.88px;
+//                 font-weight: 500;
+//                 line-height: 25.93px;
+//                 text-align: center;
+//             }
+
+//             button {
+//                 width: 12em;
+//                 padding: 0.6em;
+//                 margin-top: 0.5rem;
+//                 border-radius: 5em;
+//                 border: none;
+//                 color: white;
+//                 background: rgba(81, 177, 117, 1);
+//             }
+//         }
+//     }
+
+//     .service2 {
+//         display: grid;
+//         grid-template-columns: 1fr 1fr;
+//         margin: 0;
+//         padding: 0;
+//         justify-content: center;
+
+//         .grid-item {
+//             font-size: 30px;
+//             text-align: center;
+//             padding: 0;
+//             column-gap: 0em;
+
+//             .web-development {
+//                 font-family: Raleway;
+//                 font-size: 34.34px;
+//                 font-weight: 900;
+//                 line-height: 39.65px;
+//                 text-align: center;
+//                 text-decoration: none;
+//                 margin-top: 1.5em;
+//                 color: rgba(38, 50, 56, 1);
+
+//                 p {
+//                     font-family: Raleway;
+//                     font-size: 23.47px;
+//                     font-weight: 500;
+//                     text-align: left;
+//                     color: rgba(0, 0, 0, 1);
+//                 }
+//             }
+//         }
+//     }
+
+//     .service6 {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//         width: 100%;
+//         margin: 0;
+//         padding: 0;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 90%;
+//             margin-bottom: 2em;
+
+//             img {
+//                 width: 100%;
+//             }
+//         }
+
+//         .one {
+//             text-decoration: rgba(46, 98, 65, 1);
+//             font-size: 2.6em;
+//             color: rgba(46, 98, 65, 1);
+//         }
+
+//         .three {
+//             font-size: 1em;
+//             font-weight: bold;
+//             margin-top: 1em;
+//             margin-bottom: 1em;
+//         }
+
+//         .button1 {
+//             border-radius: 1.4em;
+//             margin-top: 2em;
+//             margin-bottom: 2em;
+//             width: 9em;
+//             padding: 0.4em;
+//             color: white;
+//             background-color: black;
+//         }
+//     }
+
+//     .service7 {
+//         width: 90%;
+//         margin: auto;
+//         padding: 0;
+//         text-align: center;
+
+//         img {
+//             width: 100%;
+//         }
+
+//         .button-service7 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-top: 3.5em;
+
+//             .button2 {
+//                 font-size: 1em;
+//                 color: white;
+//                 background-color: black;
+//                 border-radius: 1.5em;
+//                 width: 8em;
+//                 padding: 0.4em;
+//             }
+//         }
+//     }
+// }
+
+// /* Media Queries for Responsive Design */
+// @media (max-width: 850px) {
+//     .services .service1 {
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 50px;
+//             line-height: 60px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//     }
+
+//     .services .service6 {
+//         flex-direction: column;
+//         align-items: center;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 100%;
+//     }
+// }
+
+// @media (max-width: 430px) {
+//     .services .service1 {
+//         height: 30vh;
+
+
+//         .center h1 {
+//             font-size: 40px;
+//             line-height: 50px;
+//         }
+
+//         .center h3 {
+//             font-size: 16px;
+//             line-height: 20px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         margin-top: 0rem;
+//     }
+
+//     .services .service6 {
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 .button-service7 .button2 {
+//         font-size: 0.8em;
+//         width: 6em;
+//         padding: 0.3em;
+//     }
+// }
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// body {
+//     padding: 1rem;
+//     /* Add padding to the body */
+//     font-family: 'Poppins', sans-serif;
+// }
+
+// .services {
+//     padding: 0.5rem;
+
+//     /* Section 1 */
+//     .service1 {
+//         position: relative;
+//         overflow: hidden;
+//         padding: 1rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         height: 75vh;
+
+//         .video-bg {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             right: 0;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//             z-index: -1;
+//         }
+
+//         .overlay {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: rgba(0, 0, 0, 0.7);
+//             z-index: 1;
+//         }
+
+//         .center {
+//             width: auto;
+//             text-align: center;
+//             position: relative;
+//             z-index: 1;
+//             color: white;
+
+//             h1 {
+//                 font-size: 80.24px;
+//                 font-weight: 700;
+//                 line-height: 95.08px;
+//                 text-align: left;
+//             }
+
+//             h3 {
+//                 font-size: 21.88px;
+//                 font-weight: 500;
+//                 line-height: 25.93px;
+//                 text-align: center;
+//             }
+
+//             button {
+//                 width: 12em;
+//                 padding: 0.6em;
+//                 margin-top: 0.5rem;
+//                 border-radius: 5em;
+//                 color: white;
+//                 background: rgba(81, 177, 117, 1);
+//             }
+//         }
+//     }
+
+//     /* Section 2 */
+//     .service2 {
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         gap: 2rem;
+//         margin: 0;
+//         padding: 1rem;
+//         justify-content: center;
+
+//         .grid-item {
+//             width: auto;
+//             max-width: 430px;
+//             height: auto;
+//             padding: 1rem;
+//             background: none;
+//             border: none;
+//             border-radius: 0;
+//             box-shadow: none;
+//             transition: none;
+
+//             .web-development {
+//                 .header-card {
+//                     font-size: 34.34px;
+//                     font-weight: 600;
+//                     line-height: 39.65px;
+//                     text-align: center;
+//                     color: rgba(38, 50, 56, 1);
+//                     margin-bottom: 0.2REM;
+//                 }
+
+//                 p {
+//                     font-size: 23.47px;
+//                     font-weight: 500;
+//                     text-align: left;
+//                     color: rgba(0, 0, 0, 1);
+//                 }
+//             }
+//         }
+//     }
+
+//     /* Section 6 */
+//     .service6 {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: row;
+//         width: 100%;
+//         margin: 0;
+//         padding: 1rem;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 45%;
+//             margin: 1rem;
+
+//             img {
+//                 width: 100%;
+//                 height: auto;
+//             }
+//         }
+
+//         .one {
+//             font-size: 2.6em;
+//             color: rgba(46, 98, 65, 1);
+//         }
+
+//         .three {
+//             font-size: 1em;
+//             font-weight: bold;
+//             margin-top: 1em;
+//             margin-bottom: 1em;
+//         }
+
+//         .button1 {
+//             border-radius: 1.4em;
+//             margin-top: 2em;
+//             margin-bottom: 2em;
+//             width: 9em;
+//             padding: 0.4em;
+//             color: white;
+//             background-color: black;
+//         }
+//     }
+
+//     /* Section 7 */
+//     .service7 {
+//         width: 90%;
+//         margin: auto;
+//         padding: 1rem;
+//         text-align: center;
+
+//         img {
+//             width: 100%;
+//             height: auto;
+//         }
+
+//         .button-service7 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-top: 3.5em;
+
+//             .button2 {
+//                 font-size: 1em;
+//                 color: white;
+//                 background-color: black;
+//                 border-radius: 1.5em;
+//                 width: 8em;
+//                 padding: 0.4em;
+//             }
+//         }
+//     }
+// }
+
+
+// @media (max-width: 1024px) {
+//     body {
+//         padding: 1rem;
+//     }
+
+//     .services .service1 {
+//         padding: 1rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 60px;
+//             line-height: 70px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+
+//         .center button {
+//             width: 10em;
+//             padding: 0.5em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+//         flex-direction: column;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//             margin-bottom: 2em;
+//         }
+
+//         .service6-left img {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 100%;
+//         padding: 0.5rem;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     body {
+//         padding: 0.5rem;
+//     }
+
+//     .services .service1 {
+//         padding: 0.5rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 50px;
+//             line-height: 60px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 100%;
+//         padding: 0.5rem;
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     body {
+//         padding: 0.5rem;
+//     }
+
+//     .services .service1 {
+//         padding: 0.5rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 40px;
+//             line-height: 50px;
+//         }
+
+//         .center h3 {
+//             font-size: 16px;
+//             line-height: 20px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         margin-top: 0.4rem;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 .button-service7 .button2 {
+//         font-size: 0.8em;
+//         width: 6em;
+//         padding: 0.3em;
+//     }
+// }
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// body {
+//     padding: 1rem;
+//     /* Add padding to the body */
+//     font-family: 'Poppins', sans-serif;
+// }
+
+// .services {
+//     padding: 0.5rem;
+
+//     /* Section 1 */
+//     .service1 {
+//         position: relative;
+//         overflow: hidden;
+//         padding: 1rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         height: 75vh;
+
+//         .video-bg {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             right: 0;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+
+//             z-index: -1;
+
+//         }
+
+//         .overlay {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 100%;
+//             background-color: rgba(0, 0, 0, 0.7);
+//             z-index: 1;
+//         }
+
+//         .center {
+//             width: auto;
+//             text-align: center;
+//             position: relative;
+//             z-index: 1;
+//             color: white;
+
+//             h1 {
+//                 font-size: 80.24px;
+//                 font-weight: 700;
+//                 line-height: 95.08px;
+//                 text-align: left;
+//             }
+
+//             h3 {
+//                 font-size: 21.88px;
+//                 font-weight: 500;
+//                 line-height: 25.93px;
+//                 text-align: center;
+//             }
+
+//             button {
+//                 width: 12em;
+//                 padding: 0.6em;
+//                 margin-top: 0.5rem;
+//                 border-radius: 5em;
+//                 color: white;
+//                 background: rgba(81, 177, 117, 1);
+//             }
+//         }
+//     }
+
+//     /* Section 2 */
+//     .service2 {
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         gap: 2rem;
+//         margin: 0 auto;
+//         /* Center align the grid */
+//         max-width: 1200px;
+//         /* Optional: Set a max-width for centering on larger screens */
+//         padding: 1rem;
+//         justify-content: center;
+
+//         .grid-item {
+//             width: auto;
+//             max-width: 430px;
+//             height: auto;
+
+//             padding: 1rem;
+//             background: none;
+//             border: none;
+//             border-radius: 0;
+//             box-shadow: none;
+//             transition: none;
+
+
+//             .web-development {
+//                 font-family: 'Poppins', sans-serif;
+//                 text-align: left;
+//                 color: rgba(38, 50, 56, 1);
+//                 margin-bottom: 0.5rem;
+//                 margin-top: 0.5rem;
+
+//                 .header-card {
+//                     font-size: 24px;
+//                     font-weight: 600;
+//                     line-height: 1.5;
+//                     text-align: center;
+//                 }
+
+//                 p {
+//                     font-size: 16px;
+//                     font-weight: 400;
+//                     line-height: 1.5;
+//                     text-align: center;
+//                 }
+//             }
+//         }
+//     }
+
+//     /* Section 6 */
+//     .service6 {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: row;
+//         width: 100%;
+//         margin: 0;
+//         padding: 1rem;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 45%;
+//             margin: 1rem;
+
+//             img {
+//                 width: 100%;
+//                 height: auto;
+//             }
+//         }
+
+//         .one {
+//             font-size: 2.6em;
+//             color: rgba(46, 98, 65, 1);
+//         }
+
+//         .three {
+//             font-size: 1em;
+//             font-weight: bold;
+//             margin-top: 1em;
+//             margin-bottom: 1em;
+//         }
+
+//         .button1 {
+//             border-radius: 1.4em;
+//             margin-top: 2em;
+//             margin-bottom: 2em;
+//             width: 9em;
+//             padding: 0.4em;
+//             color: white;
+//             background-color: black;
+//         }
+//     }
+
+//     /* Section 7 */
+//     .service7 {
+//         width: 90%;
+//         margin: auto;
+//         padding: 1rem;
+//         text-align: center;
+
+//         .service7-card-container {
+//             display: flex;
+//             justify-content: space-evenly;
+//             align-items: center;
+//             margin-bottom: 3rem;
+//         }
+
+//         .sercice7-card {}
+
+//         .service7-head {
+          
+//             gap: 0px;
+//             opacity: 0px;
+//             font-family: Poppins;
+//             font-size: 65.72px;
+//             font-weight: 500;
+//             line-height: 98.58px;
+//             letter-spacing: -0.01em;
+//             text-align: center;
+//             color: #2E6241;
+            
+//         }
+
+//         .service7-p {
+            
+//             gap: 0px;
+//             opacity: 0px;
+//             font-family: ABeeZee;
+//             font-size: 17.52px;
+//             font-style: italic;
+//             font-weight: 400;
+//             line-height: 20.71px;
+//             letter-spacing: -0.01em;
+//             text-align: right;
+//             color: #2E6241;
+//            margin-right: 19rem;
+
+//         }
+//         .service7-card button{
+//             border: none;
+//         }
+
+//         .button-service7 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-top: 3.5em;
+
+//             .button2 {
+//                 font-size: 1em;
+//                 color: white;
+//                 background-color: black;
+//                 border-radius: 1.5em;
+//                 width: 8em;
+//                 padding: 0.4em;
+//             }
+//         }
+//     }
+// }
+
+// /* Media Queries for Responsive Design */
+// @media (max-width: 1024px) {
+//     body {
+//         padding: 1rem;
+//     }
+
+//     .services .service1 {
+//         padding: 1rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 60px;
+//             line-height: 70px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+
+//         .center button {
+//             width: 10em;
+//             padding: 0.5em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+//         flex-direction: column;
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//             margin-bottom: 2em;
+//         }
+
+//         .service6-left img {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 100%;
+//         padding: 0.5rem;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     body {
+//         padding: 0.5rem;
+//     }
+
+//     .services .service1 {
+//         padding: 0.5rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 50px;
+//             line-height: 60px;
+//         }
+
+//         .center h3 {
+//             font-size: 18px;
+//             line-height: 22px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 {
+//         width: 100%;
+//         padding: 0.5rem;
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     body {
+//         padding: 0.5rem;
+//     }
+
+//     .services .service1 {
+//         padding: 0.5rem;
+//         height: auto;
+
+//         .center h1 {
+//             font-size: 40px;
+//             line-height: 50px;
+//         }
+
+//         .center h3 {
+//             font-size: 16px;
+//             line-height: 20px;
+//         }
+
+//         .center button {
+//             width: 8em;
+//             padding: 0.4em;
+//         }
+//     }
+
+//     .services .service2 {
+//         grid-template-columns: 1fr;
+//         margin-top: 0.4rem;
+//         padding: 0.5rem;
+//     }
+
+//     .services .service6 {
+
+//         .service6-left,
+//         .service6-right {
+//             width: 100%;
+//         }
+//     }
+
+//     .services .service7 .button-service7 .button2 {
+//         font-size: 0.8em;
+//         width: 6em;
+//         padding: 0.3em;
+//     }
+// }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+
+.services {
+   
+
+    /* Section 1 */
+    .service1 {
+        position: relative;
+        overflow: hidden;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 75vh;
+
+        .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+
+        .center {
+            width: auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            color: white;
+
+            h1 {
+                font-size: 80.24px;
+                font-weight: 700;
+                line-height: 95.08px;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 21.88px;
+                font-weight: 500;
+                line-height: 25.93px;
+                text-align: center;
+            }
+
+            button {
+                width: 12em;
+                padding: 0.6em;
+                margin-top: 0.5rem;
+                border-radius: 5em;
+                color: white;
+                background: rgba(81, 177, 117, 1);
+            }
+        }
+    }
+
+    /* Section 2 */
+    .service2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin: auto 0 0 10rem;
+       align-items: center;
+        max-width: 1200px;
+        padding: 1rem;
+        justify-content: center;
+
+        .grid-item {
+            width: auto;
+            max-width: 430px;
+            height: auto;
+            padding: 1rem;
+            background: none;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            transition: none;
+            img{
+                width: 90%;
+            }
+
+            .web-development {
+                font-family: 'Poppins', sans-serif;
+                text-align: left;
+                color: rgba(38, 50, 56, 1);
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
+
+                .header-card {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 1.5;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    /* Section 6 */
+    .service6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+
+        .service6-left,
+        .service6-right {
+            width: 45%;
+            margin: 1rem;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .one {
+            font-size: 2.6em;
+            color: rgba(46, 98, 65, 1);
+        }
+
+        .three {
+            font-size: 1em;
+            font-weight: bold;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .button1 {
+            border-radius: 1.4em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            width: 9em;
+            padding: 0.4em;
+            color: white;
+            background-color: black;
+        }
+    }
+
+    /* Section 7 */
+    .service7 {
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+
+        .service7-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .service7-card {
+            background-color:white;
+            
+            margin: 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+
+            img {
+                width: 100%;
+                height: auto;
+                transition: filter 0.3s;
+            }
+        }
+        .service7-card button{
+            background-color:white;}
+
+        .service7-card button img:hover {
+            background-color: lightcoral;
+            color: white;
+
+            img {
+                filter: brightness(0.8);
+            }
+        }
+        
+
+        .service7-head {
+            font-family: 'Poppins', sans-serif;
+            font-size: 65.72px;
+            font-weight: 500;
+            line-height: 98.58px;
+            letter-spacing: -0.01em;
+            text-align: center;
+            color: #2E6241;
+            opacity: 1;
+            margin-bottom: 1rem;
+        }
+
+        .service7-p {
+            font-family: 'ABeeZee', sans-serif;
+            font-size: 17.52px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 20.71px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #2E6241;
+            margin-right: 19rem;
+            opacity: 1;
+            width: 90%;
+        }
+
+        .service7-card button {
+            border: none;
+        }
+
+        .button-service7 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3.5em;
+
+            .button2 {
+                font-size: 1em;
+                color: white;
+                background-color: black;
+                border-radius: 1.5em;
+                width: 8em;
+                padding: 0.4em;
+            }
+        }
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    body {
+        padding: 1rem;
+    }
+
+    .services .service1 {
+        padding: 1rem;
+        height: auto;
+
+        .center h1 {
+            font-size: 60px;
+            line-height: 70px;
+        }
+
+        .center h3 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .center button {
+            width: 10em;
+            padding: 0.5em;
+        }
+    }
+
+    .services .service2 {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+
+    .services .service6 {
+        flex-direction: column;
+
+        .service6-left,
+        .service6-right {
+            width: 100%;
+            margin-bottom: 2em;
+        }
+
+        .service6-left img {
+            width: 100%;
+        }
+    }
+
+    .services .service7 {
+        width: 100%;
+        padding: 0.5rem;
+
+        .service7-card {
+            width: 100%;
+        }
+
+        .service7-head {
+            font-size: 50px;
+            line-height: 70px;
+        }
+
+        .service7-p {
+            font-size: 16px;
+            margin-right: 0;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .services .service1 {
+        padding: 0.5rem;
+        height: auto;
+
+        .center h1 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+
+        .center h3 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .center button {
+            width: 8em;
+            padding: 0.4em;
+        }
+    }
+
+    .services .service2 {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+
+    .services .service6 {
+        .service6-left,
+        .service6-right {
+            width: 100%;
+        }
+    }
+
+    .services .service7 {
+        width: 100%;
+        padding: 0.5rem;
+
+        .service7-card {
+            width: 100%;
+        }
+
+        .service7-head {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .service7-p {
+            font-size: 14px;
+            margin-right: 0;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0.5rem;
+        
+    }
+
+    .services .service1 {
+        padding: 0.5rem;
+        height: 35vh;
+
+        .center h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .center h3 {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .center button {
+            width: 8em;
+            padding: 0.4em;
+            margin-top: 2rem;
+        }
+    }
+
+    .services .service2 {
+        grid-template-columns: 1fr;
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+        padding: 0.5rem;
+    }
+
+    .services .service6 {
+        .service6-left,
+        .service6-right {
+            width: 100%;
+        }
+    }
+
+    .services .service7 {
+        width: 100%;
+        padding: 0.5rem;
+
+        .service7-card {
+            width: 100%;
+        }
+
+        .service7-head {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .service7-p {
+            font-size: 12px;
+            margin-right: 0;
+            text-align: center;
+        }
+
+        .button-service7 .button2 {
+            font-size: 0.8em;
+            width: 6em;
+            padding: 0.3em;
+        }
+    }
+}
